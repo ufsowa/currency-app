@@ -14,7 +14,6 @@ describe('Component CurrencyForm', () => {
         { amount: '345', from: 'USD', to: 'PLN' },
     ] ;
 
-
     for (const testObj of testCases) {
         const action = jest.fn();
         // render component
